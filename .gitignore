@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+ml_service/venv/
+__pycache__/
+*.pyc
+
+# Build outputs
+client/dist/
+
+# Local runtime & secrets
+.env
+server/.env
+server/data/
+*.log
+.DS_Store
